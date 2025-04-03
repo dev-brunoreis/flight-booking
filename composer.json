@@ -1,7 +1,13 @@
 {
+    "name": "flight-booking",
+    "description": "Sistema de reservas de passagens aéreas",
+    "type": "project",
     "autoload": {
         "psr-4": {
             "App\\": "src/"
         }
+    },
+    "require": {
+        "php": ">=8.0"
     }
 }
