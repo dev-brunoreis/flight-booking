@@ -36,6 +36,10 @@ public class Main {
                 case 1 -> new FlightCommand();
                 case 2 -> new BookingCommand();
                 case 3 -> new SearchCommand();
+                case 4 -> {
+                    System.exit(0);
+                    yield null;
+                }
                 default -> {
                     UIHelper.displayError("Opção inválida!");
                     UIHelper.pause();
